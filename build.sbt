@@ -8,4 +8,5 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-json" % "2.5.4",
-  "org.json4s" %% "json4s-native" % "3.4.2")
+  "org.json4s" %% "json4s-native" % "3.4.2",
+  "net.databinder.dispatch" %% "dispatch-core" % "0.11.2")
